@@ -1,0 +1,28 @@
+{
+    "wifi":{
+        "ssid": "Rang Dong Lab_2G", 
+        "password": "ktdt123456"
+    },
+    "mqtt":{
+        
+        "id": "iec-air-monitor-",
+        "broker": "45.118.147.52",
+        "topic_pub": "iec/air/monitor",
+        "topic_sub": "cloud/esp32", 
+        "user": "iot-ptit", 
+        "pass_mqtt": "12345678",
+        "port":  "12004"
+    },
+    "cloud": {
+        "uuid_rain": "rain",
+        "uuid_lux": "lux",
+        "uuid_temp": "temp",
+        "uuid_humid": "humi",
+        "uuid_pm1": "pm1",
+        "uuid_pm25": "pm2.5",
+        "uuid_pm10": "pm10",
+        "uuid_co2": "co2",
+        "uuid_wind_direction": "wind_direction",
+        "uuid_wind_speed": "wind_speed"
+    }
+}
