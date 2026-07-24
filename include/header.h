@@ -26,6 +26,7 @@
 #include "HardwareSerial.h"
 #include <SD.h>
 #include <SPI.h>
+#include <FS.h>
 #include <ArduinoJson.h>
 #include <esp_timer.h>
 #include <esp_task_wdt.h>
